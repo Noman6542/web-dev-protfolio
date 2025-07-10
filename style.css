@@ -1,0 +1,133 @@
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.head{
+  background-color: #FFF8F3;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav ul{
+  display: flex;
+  align-items: center;
+}
+
+.nav h3{
+  font-weight: 800;
+  font-size: 45px;
+  color: #181818;
+ margin-left: 200px;
+}
+.nav span{
+  color: #FD6E0A;
+}
+.nav ul li{
+  list-style: none;
+}
+.nav,li, a{
+  text-decoration: none;
+}
+.click{
+  font-size: 20px;
+  color: #474747;
+  margin-right: 51px;
+}
+.h3{
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+}
+.h1{
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+}
+.btn{
+  background-color: #FD6E0A;
+  height: 64px;
+  width: 150px;
+  color: white;
+  padding: 18px 36px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 158px;
+}
+
+.btn-Download{
+  background-color: #FD6E0A;
+  color: white;
+  padding: 17px 21px;
+   font-size:20px;
+  font-weight: bold;
+  width: 200px;
+  border-radius: 5px;
+  border: none;margin-right: 30px;
+}
+.btn-Contact{
+  font-size:20px;
+  font-weight: bold;
+  color: #FD6E0A;
+  padding:19px 58px;
+  font-weight: bold;
+  width: 160px;
+  border: #FD6E0A 1px solid;
+  border-radius: 5px;
+  
+}
+
+
+.pra{
+  color: #757575;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 200px;
+}
+.head{
+  background-image: url('./images/header_bg.png'),url('./images/developer.png');
+  background-repeat: no-repeat;
+  background-position:right bottom,left top;
+}
+.photo{
+  width: 584px;
+  height: 676px;
+}
+main{
+  background-color: #FFF8F3;
+  max-width: 1140px;
+  height: 550px;
+  text-align: center;
+  padding: 130px 150px;
+  margin: 0px auto;
+  margin-top: 130px;
+}
+.about{
+  background-color: #FFFFFF;
+  padding: 130px 155px;
+}
+.about-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.about-description{
+  color: #757575;
+}
+.about-item{
+  display: flex;
+  justify-content: space-around;
+}
+.p-dec{
+  font-weight: 600;
+}
